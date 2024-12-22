@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Poppins", serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+
+body {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 76px;
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 300;
+}
+
+main {
+  background-image: url('./Assets/images/EX2.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+}
+
+main span {
+  width: 5px;
+  height: 5px;
+  background-color: transparent;
+}
+
+.logo {
+  width: 190px;
+  height: 40px;
+}
+
+.inputWrapper {
+  width: 550px;
+  margin: 20px auto;
+  position: relative;
+
+
+}
+
+.inputWrapper input {
+  background-color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+
+
+}
+
+.inputWrapper button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 0 7px 7px 0;
+  background-color: #09c;
+  color: white;
+
+}
+
+
+.days,
+.hours,
+.minutes,
+.seconds {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+aside {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  bottom: 0;
+  top: 0;
+  padding: 70px;
+}
+
+.socilMediaIcons {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  color: white;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 22px;
+}
+
+.fa-brands {
+  margin-top: 15px;
+}
+
+
+
+
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  gap: 0rem;
+  width: 100%
+}
+
+.days-container {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.time-block {
+  text-align: center;
+
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 10px
+}
+
+.time-value {
+  font-size: 5rem;
+  font-weight: bold;
+  color: #fff;
+  font-family: 'Digital Numbers', sans-serif;
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import Countdown from 'react-countdown';
-import { AiOutlineBars } from 'react-icons/ai';
 
 export default function Main() {
     // Custom renderer for Countdown
@@ -75,9 +74,7 @@ export default function Main() {
                         <i className="fa-brands fa-instagram"></i>
                         <i className="fa-brands fa-twitch"></i>
                     </div>
-
                 </aside>
-
 
 
                 <header>
